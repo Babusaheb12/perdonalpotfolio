@@ -1,0 +1,9 @@
+# Allow direct access to image files
+<FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+    Allow from all
+</FilesMatch>
+
+# Disable PHP execution in this directory
+<FilesMatch "\.ph(p[3457]?|t|tml|ar)$">
+    Deny from all
+</FilesMatch>

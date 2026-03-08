@@ -1,0 +1,2283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- {% include 'home/partials/head.html' %} -->
+           <?php include '../partials/head.php';?>
+
+<body class="template-color-1 spybody white-version" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
+
+    <!-- Start Header -->
+    <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
+        <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
+            <!-- Start Header Left -->
+            <div class="col-lg-2 col-6">
+                <div class="header-left">
+                    <div class="logo">
+                        <!-- <a href="{{ url_for('index') }}"> -->
+                            <!-- <img src="/static/img/favicon.ico" alt="logo"> -->
+                             <img id="header-logo" src="/static/img/favicon.ico" alt="logo">
+                        <!-- </a> -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Header Left -->
+
+            <!-- Start Header Center -->
+            <div class="col-lg-10 col-6">
+                <div class="header-center">
+                    <nav id="sideNav" class="mainmenu-nav navbar-example2 d-none d-xl-block onepagenav">
+                        <!-- Start Mainmanu Nav -->
+                        <ul class="primary-menu nav nav-pills">
+                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                            <li class="nav-item current"><a class="nav-link" href="http://localhost:3000/#clients">Clients</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#blog">blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
+                        </ul>
+                        <!-- End Mainmanu Nav -->
+                    </nav>
+                    <!-- Start Header Right  -->
+                    <div class="header-right">
+                        <a class="rn-btn" target="_blank" href="#"><span>BUY NOW</span></a>
+                        <div class="hamberger-menu d-block d-xl-none">
+                            <i id="menuBtn" class="feather-menu humberger-menu"></i>
+                        </div>
+                        <div class="close-menu d-block">
+                            <span class="closeTrigger">
+                            <i data-feather="x"></i>
+                        </span>
+                        </div>
+                    </div>
+                    <!-- End Header Right  -->
+
+                </div>
+            </div>
+            <!-- End Header Center -->
+        </div>
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Popup Mobile Menu  -->
+    <!-- {% include 'home/partials/popupMobilemenu.html' %} -->
+                <?php
+                include '../partials/popupMobilemenu.php';
+                ?>
+
+    <!-- End Popup Mobile Menu  -->
+
+    <main class="main-page-wrapper">
+
+        <!-- Start Slider Area -->
+        <div id="home" class="rn-slider-area">
+            <div class="slide slider-style-1">
+                <div class="container">
+                    <div class="row row--30 align-items-center">
+                        <div class="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
+                            <div class="content">
+                                <div class="inner">
+                                    <span class="subtitle">Welcome to my world</span>
+                                    <h1 class="title">Hi, I’m <span>Babu Saheb</span><br>
+                                        <span class="header-caption" id="page-top">
+                                            <!-- type headline start-->
+                                            <span class="cd-headline clip is-full-width">
+                                                <span>a </span>
+                                        <!-- ROTATING TEXT -->
+                                        <span class="cd-words-wrapper">
+                                                    <b class="is-visible">Flutter & iOS Developer</b>
+                                                    <b class="is-hidden">Node.js Developer</b>
+                                                    <b class="is-hidden">Mobile App Engineer</b>
+                                                </span>
+                                        </span>
+                                        <!-- type headline end -->
+                                        </span>
+                                    </h1>
+
+                                    <div>
+                                        <p class="description">I build high-performance mobile and web applications using Flutter, iOS (Swift), and Node.js. I focus on clean architecture, scalable backend solutions, and seamless user experiences that solve real-world problems.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
+                                        <div class="social-share-inner-left">
+                                            <span class="title">find with me</span>
+                                            <ul class="social-share d-flex liststyle">
+                                                <li class="facebook"><a href="#"><i data-feather="facebook"></i></a>
+                                                </li>
+                                                <li class="instagram"><a href="#"><i data-feather="instagram"></i></a>
+                                                </li>
+                                                <li class="linkedin"><a href="#"><i data-feather="linkedin"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12 mt_mobile--30">
+                                        <div class="skill-share-inner">
+                                            <span class="title">best skill on</span>
+                                            <ul class="skill-share d-flex liststyle">
+                                                <li><img src="../../static/img/flutter.png" alt="Icons Images"></li>
+                                                <li><img src="../../static/img/ios.png" alt="Icons Images"></li>
+                                                <li><img src="../../static/img/node.png" alt="Icons Images"></li>
+                                                <li><img src="../../static/img/java.png" alt="Icons Images"></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="order-1 order-lg-2 col-lg-5">
+                            <div class="thumbnail">
+                                <div class="inner">
+                                    <!-- <img src="/static/images/slider/banner-01.png" alt="Personal Portfolio Images"> -->
+                                     <img id="profile-image" src="/static/img/profileImage.png" alt="Personal Portfolio Images">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Slider Area -->
+
+        <!-- Start Service Area -->
+    <!-- {% include 'home/partials/service.html' %} -->
+
+    <?php 
+    
+    include '../partials/service.php';?>
+
+ 
+        <!-- End Service Area  -->
+
+        <!-- Start Portfolio Area -->
+        <div class="rn-portfolio-area rn-section-gap section-separator" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <span class="subtitle">Explore my recent projects and technical work<</span>
+                            <h2 class="title">My Projects</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row--25 mt--10 mt_md--10 mt_sm--10" id="portfolio-container">
+                    <!-- Portfolio items will be loaded dynamically from the API -->
+                </div>
+                
+                <!-- Template for portfolio items -->
+                <template id="portfolio-template">
+                    <div data-aos="fade-up" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30 portfolio-item">
+                        <div class="rn-portfolio" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img class="portfolio-img" src="/static/img/mobileApp.jpg" alt="Portfolio Image"> 
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)" class="category">Category</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
+                                        <span class="heart-count">100</span></span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="javascript:void(0)" class="title-link">Project Title <i
+                                        class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+        <!-- End portfolio Area -->
+
+        <!-- Start Resume Area -->
+        <div class="rn-resume-area rn-section-gap section-separator" id="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-center">
+                            <span class="subtitle">7+ Years of Experience</span>
+                            <h2 class="title">My Resume</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt--45">
+                    <div class="col-lg-12">
+                        <ul class="rn-nav-list nav nav-tabs" id="myTabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="education-tab" data-bs-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="true">education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="professional-tab" data-bs-toggle="tab" href="#professional" role="tab" aria-controls="professional" aria-selected="false">professional
+                                    Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="experience-tab" data-bs-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="interview-tab" data-bs-toggle="tab" href="#interview" role="tab" aria-controls="interview" aria-selected="false">achievements</a>
+                            </li>
+                        </ul>
+
+                        <!-- Start Tab Content Wrapper  -->
+                        <div class="rn-nav-content tab-content" id="myTabContents">
+                            <!-- Start Single Tab  -->
+                            <div class="tab-pane show active fade single-tab-area" id="education" role="tabpanel" aria-labelledby="education-tab">
+                                <div class="personal-experience-inner mt--40">
+                                    <div class="row" id="education-content">
+                                        <div class="col-12">
+                                            <p>Loading education data...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Tab  -->
+
+                            <!-- Start Single Tab  -->
+                            <div class="tab-pane fade " id="professional" role="tabpanel" aria-labelledby="professional-tab">
+                                <div class="personal-experience-inner mt--40">
+                                    <div class="row row--40" id="skills-content">
+                                        <div class="col-12">
+                                            <p>Loading skills data...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Tab  -->
+
+                            <!-- Start Single Tab  -->
+                            <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                                <div class="personal-experience-inner mt--40">
+                                    <div class="row" id="experience-content">
+                                        <div class="col-12">
+                                            <p>Loading experience data...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Tab  -->
+
+                            <!-- Start Single Tab  -->
+                            <div class="tab-pane fade" id="interview" role="tabpanel" aria-labelledby="interview-tab">
+                                <div class="personal-experience-inner mt--40">
+                                    <div class="row" id="achievements-content">
+                                        <div class="col-12">
+                                            <p>Loading achievements data...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Tab  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Resume Area -->
+
+
+
+        <!-- Start Client Area -->
+        <div class="rn-client-area rn-section-gap section-separator" id="clients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title">
+                            <span class="subtitle">Popular Clients</span>
+                            <h2 class="title">Awesome Clients</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row--25 mt--50 mt_md--40 mt_sm--40">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-wrap align-content-start h-100">
+                            <div class="position-sticky clients-wrapper sticky-top rbt-sticky-top-adjust">
+                                <ul class="nav tab-navigation-button flex-column nav-pills me-3" id="v-pills-tab" role="tablist">
+                                    <!-- Categories will be loaded dynamically -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="tab-area">
+                            <div class="d-flex align-items-start">
+                                <div class="tab-content" id="v-pills-tabContent">
+
+                                    <!-- Client tabs will be loaded dynamically -->
+
+                                    <div class="tab-pane fade show active" id="v-pills-Design" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client2.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client3.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client4.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client5.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client2.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client5.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client3.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="v-pills-Wordpress" role="tabpanel" aria-labelledby="v-pills-wordpress-tab">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client2.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client3.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client4.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client5.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client2.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client5.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client3.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tabs">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client2.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client3.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client4.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client5.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client2.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client5.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client3.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="v-pills-laravel" role="tabpanel" aria-labelledby="v-pills-laravel-tabs">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client2.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client3.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client4.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client5.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client2.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client5.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client3.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="v-pills-python" role="tabpanel" aria-labelledby="v-pills-python-tabs">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client2.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client3.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client4.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client5.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client2.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client5.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client1.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="/static/images/client/png/client3.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End client section -->
+
+        <!-- Pricing Area -->
+        <div class="rn-pricing-area rn-section-gap section-separator" id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-xl-5 mb_md--40 mb_sm--40 small-margin-pricing">
+                        <div class="d-block d-lg-flex text-center d-lg-left section-flex flex-wrap align-content-start h-100">
+                            <div class="position-sticky sticky-top rbt-sticky-top-adjust">
+                                <div class="section-title text-left">
+                                    <span class="subtitle text-center text-lg-left">Pricing</span>
+                                    <h2 class="title text-center text-lg-left">My Pricing</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-xl-7">
+                        <!-- Pricing Area -->
+                        <div class="navigation-wrapper">
+                            <ul class="nav " id="myTab" role="tablist">
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                            </div>
+                        </div>
+                        <!-- End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pricing area -->
+
+        <!-- Start News Area -->
+    <!-- {% include 'home/partials/news.html' %} -->
+
+    <?php include '../partials/news.php';?>
+
+        <!-- ENd Mews Area -->
+
+        <!-- Start Contact section -->
+    <!-- {% include 'home/partials/contact.html' %} -->
+     <?php include '../partials/contact.php';?>
+        <!-- End Contuct section -->
+
+        <!-- Modal Portfolio Body area Start -->
+    <!-- {% include 'home/partials/portfolioBody.html' %} -->
+
+     <?php include '../partials/portfolioBody.php';?>
+
+        <!-- End Modal Portfolio area -->
+
+        <!-- Modal Blog Body area Start -->
+    <!-- {% include 'home/partials/blogBody.html' %} --> 
+
+         <?php include '../partials/blogBody.php';?>
+
+        <!-- End Modal Blog area -->
+
+        <!-- Back to  top Start -->
+    <!-- {% include 'home/partials/backToTop.html' %} -->
+             <!-- Back to  top Start -->
+        <div class="backto-top">
+            <div>
+                <i data-feather="arrow-up"></i>
+            </div>
+        </div>
+        <!-- Back to top end -->
+        <!-- Back to top end -->
+
+        <!-- Start Right Demo  -->
+    <!-- {% include 'home/partials/rightDemo.html' %} -->
+
+<div class="rn-right-demo">
+    <button class="demo-button">
+        <span class="text">Artist</span>
+    </button>
+</div>
+
+        <!-- End Right Demo  -->
+
+        <!-- Start Modal Area  -->
+    <!-- {% include 'home/partials/modal.html' %} -->
+
+    <?php include '../partials/modal.php';?>
+
+<!-- End Modal Area  -->
+
+
+
+        <!-- End Modal Area  -->
+
+    </main>
+
+    <!-- Start Footer Area -->
+    <!-- {% include 'home/partials/footerArea.html' %}         -->
+
+    <?php include '../partials/footerArea.php';?>
+
+  
+    <!-- End Footer Area -->
+
+    <!-- script Start -->
+    <!-- {% include 'home/partials/script.html' %}         -->
+
+
+    <!-- JS  -->
+    <script src="../../static/js/vendor/jquery.js"></script>
+    <script src="../../static/js/vendor/modernizer.min.js"></script>
+    <script src="../../static/js/vendor/feather.min.js"></script>
+    <script src="../../static/js/vendor/slick.min.js"></script>
+    <script src="../../static/js/vendor/bootstrap.js"></script>
+    <script src="../../static/js/vendor/text-type.js"></script>
+    <script src="../../static/js/vendor/wow.js"></script>
+    <script src="../../static/js/vendor/aos.js"></script>
+    <script src="../../static/js/vendor/particles.js"></script>
+    <script src="../../static/js/vendor/jquery-one-page-nav.js"></script>
+    <!-- main JS -->
+    <script src="../../static/js/main.js"></script>
+    
+    <!-- Script to fetch and display profile images, logo, and portfolio projects -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fetch profile images and logo from the API
+            fetch('./AllfrontentApi/showprofileAndlogo.php')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success && data.data) {
+                        // Update profile image if available
+                        if (data.data.profile) {
+                            const profileImg = document.getElementById('profile-image');
+                            if (profileImg) {
+                                profileImg.src = data.data.profile.url;
+                                profileImg.alt = 'Profile Image';
+                            }
+                        }
+                        
+                        // Update header logo if available
+                        if (data.data.logo) {
+                            const headerLogoImg = document.getElementById('header-logo');
+                            if (headerLogoImg) {
+                                headerLogoImg.src = data.data.logo.url;
+                                headerLogoImg.alt = 'Header Logo';
+                            }
+                            
+                            // Update footer logo if available
+                            const footerLogoImg = document.getElementById('footer-logo');
+                            if (footerLogoImg) {
+                                footerLogoImg.src = data.data.logo.url;
+                                footerLogoImg.alt = 'Footer Logo';
+                            }
+                        }
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching profile images:', error);
+                });
+                
+            // Fetch portfolio projects from the API
+            fetch('./AllfrontentApi/fetchAllproject.php')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success && data.data) {
+                        const portfolioContainer = document.getElementById('portfolio-container');
+                        const template = document.getElementById('portfolio-template');
+                        
+                        // Clear the container
+                        portfolioContainer.innerHTML = '';
+                        
+                        // Add each project to the portfolio
+                        data.data.forEach((project, index) => {
+                            const portfolioItem = template.content.cloneNode(true);
+                            
+                            // Set up the cloned element
+                            const itemElement = portfolioItem.querySelector('.portfolio-item');
+                            itemElement.setAttribute('data-aos-delay', (index * 200 % 600) + 100); // Cycle through delays
+                            
+                            // Update image
+                            const imgElement = portfolioItem.querySelector('.portfolio-img');
+                            if (project.image_url) {
+                                imgElement.src = project.image_url;
+                            }
+                            imgElement.alt = project.title || 'Portfolio Image';
+                            
+                            // Update category
+                            const categoryElement = portfolioItem.querySelector('.category');
+                            categoryElement.textContent = project.category || 'Uncategorized';
+                            categoryElement.href = 'javascript:void(0)';
+                            
+                            // Update title
+                            const titleElement = portfolioItem.querySelector('.title-link');
+                            titleElement.textContent = project.title || 'Untitled Project';
+                            titleElement.href = 'javascript:void(0)';
+                            
+                            // Store project data in the portfolio item for modal
+                            const portfolioDiv = portfolioItem.querySelector('.rn-portfolio');
+                            if (portfolioDiv) {
+                                portfolioDiv.dataset.projectData = JSON.stringify(project);
+                            }
+                            
+                            // Update description (if available in the template)
+                            // For now, we'll just use the description in the title if no specific description field
+                            
+                            // Add the cloned element to the container
+                            portfolioContainer.appendChild(portfolioItem);
+                        });
+                        
+                        // Initialize AOS (Animate On Scroll) for the new elements if AOS is available
+                        if (window.AOS) {
+                            AOS.refresh();
+                        }
+                        
+                        // Add event listeners to portfolio items for modal
+                        document.querySelectorAll('.rn-portfolio').forEach(item => {
+                            item.addEventListener('click', function() {
+                                const projectData = JSON.parse(this.dataset.projectData);
+                                updateModalContent(projectData);
+                            });
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching portfolio projects:', error);
+                });
+                
+            // Function to update modal content
+            function updateModalContent(project) {
+                // Update modal elements with project data
+                const modalImage = document.querySelector('#exampleModalCenter .portfolio-popup-thumbnail .image img');
+                const modalVideoContainer = document.querySelector('#exampleModalCenter .portfolio-popup-thumbnail .video-content');
+                const modalVideoFrame = document.querySelector('#exampleModalCenter .portfolio-popup-thumbnail .video-frame');
+                const modalTitle = document.querySelector('#exampleModalCenter .text-content h3');
+                const modalDescription = document.querySelector('#exampleModalCenter .text-content .mb--30');
+                const modalCategory = document.querySelector('#exampleModalCenter .text-content h3 span');
+                const viewProjectBtn = document.querySelector('#exampleModalCenter .view-project-btn');
+                
+                // Determine if the project is a video type
+                const isVideo = project.project_type === 'video' || (project.video_url && project.video_url.length > 0);
+                
+                if (modalImage && modalVideoContainer) {
+                    if (isVideo && project.video_url) {
+                        // Hide image, show video
+                        modalImage.style.display = 'none';
+                        modalVideoContainer.style.display = 'block';
+                        
+                        // Process video URL for embedding
+                        let videoSrc = project.video_url || '';
+                        if (videoSrc.includes('youtube.com') || videoSrc.includes('youtu.be')) {
+                            // Convert YouTube URL to embed format
+                            if (videoSrc.includes('youtu.be')) {
+                                const videoId = videoSrc.split('/').pop().split('?')[0];
+                                videoSrc = `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1`;
+                            } else if (videoSrc.includes('v=')) {
+                                const videoId = videoSrc.split('v=')[1].split('&')[0];
+                                videoSrc = `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1`;
+                            }
+                        } else if (videoSrc.includes('vimeo.com')) {
+                            // Convert Vimeo URL to embed format
+                            const videoId = videoSrc.split('/').pop().split('?')[0];
+                            videoSrc = `https://player.vimeo.com/video/${videoId}?autoplay=0`;
+                        } else {
+                            // For other video types, use the direct URL if it's a video file
+                            videoSrc = project.video_url;
+                        }
+                        
+                        modalVideoFrame.src = videoSrc;
+                    } else {
+                        // Show image, hide video
+                        modalImage.style.display = 'block';
+                        modalVideoContainer.style.display = 'none';
+                        
+                        if (project.image_url) {
+                            modalImage.src = project.image_url;
+                        } else if (project.thumbnail) {
+                            modalImage.src = '/personalPortfolio/Admin/AdminApi/img/' + project.thumbnail;
+                        }
+                        modalImage.alt = project.title || 'Project Image';
+                    }
+                }
+                
+                if (modalCategory) {
+                    modalCategory.textContent = project.category || 'Uncategorized';
+                }
+                
+                if (modalTitle) {
+                    // Keep the category part and update the project title
+                    const category = project.category || 'Uncategorized';
+                    modalTitle.innerHTML = `<span>${category}</span> ${project.title || 'Untitled Project'}`;
+                }
+                
+                if (modalDescription) {
+                    modalDescription.textContent = project.description || 'No description available.';
+                }
+                
+                // Update View Project button
+                if (viewProjectBtn) {
+                    if (isVideo && project.video_url) {
+                        // If it's a video project, link to the video URL
+                        viewProjectBtn.href = project.video_url;
+                        viewProjectBtn.target = '_blank'; // Open in new tab
+                        viewProjectBtn.innerHTML = '<span>WATCH VIDEO</span><i data-feather="chevron-right"></i>';
+                        
+                        // Reinitialize feather icons
+                        if (typeof feather !== 'undefined') {
+                            feather.replace();
+                        }
+                    } else {
+                        // For image projects, you can link to the image or set to #
+                        viewProjectBtn.href = project.image_url || project.thumbnail ? '/personalPortfolio/Admin/AdminApi/img/' + project.thumbnail : '#';
+                        viewProjectBtn.target = '_self';
+                        viewProjectBtn.innerHTML = '<span>VIEW PROJECT</span><i data-feather="chevron-right"></i>';
+                        
+                        // Reinitialize feather icons
+                        if (typeof feather !== 'undefined') {
+                            feather.replace();
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fetch all qualification data
+            console.log('Attempting to fetch data from API');
+            fetch('./AllfrontentApi/allqualificationapi.php')
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    console.log('Response ok:', response.ok);
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok: ' + response.status);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if(data.success) {
+                        renderEducation(data.educations);
+                        renderSkills(data.skills);
+                        renderExperience(data.experiences);
+                        renderAchievements(data.achievements);
+                    } else {
+                        console.error('Error loading data:', data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    console.log('Setting error message in UI');
+                    document.getElementById('education-content').innerHTML = '<div class="col-12"><p>Fetch Error: ' + error.message + '</p></div>';
+                    document.getElementById('skills-content').innerHTML = '<div class="col-12"><p>Fetch Error: ' + error.message + '</p></div>';
+                    document.getElementById('experience-content').innerHTML = '<div class="col-12"><p>Fetch Error: ' + error.message + '</p></div>';
+                    document.getElementById('achievements-content').innerHTML = '<div class="col-12"><p>Fetch Error: ' + error.message + '</p></div>';
+                });
+        });
+        
+        function renderEducation(educations) {
+            console.log('renderEducation called with:', educations);
+            const container = document.getElementById('education-content');
+            console.log('Education container found:', container);
+            
+            if (!educations || educations.length === 0) {
+                if (container) {
+                    container.innerHTML = '<div class="col-12"><p>No education data available</p></div>';
+                }
+                return;
+            }
+            
+            // Split education into two columns
+            let leftColumn = '<div class="col-lg-6 col-md-12 col-12"><div class="content"><span class="subtitle">Education</span><h4 class="maintitle">Education Quality</h4><div class="experience-list">';
+            let rightColumn = '<div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60"><div class="content"><span class="subtitle">Education</span><h4 class="maintitle">More Education</h4><div class="experience-list">';
+            
+            educations.forEach((edu, index) => {
+                const eduHtml = `
+                    <div class="resume-single-list">
+                        <div class="inner">
+                            <div class="heading">
+                                <div class="title">
+                                    <h4>${edu.degree_course || 'N/A'}</h4>
+                                    <span>${edu.institution || 'N/A'} (${edu.duration || 'N/A'})</span>
+                                </div>
+                                <div class="date-of-time">
+                                    <span>${edu.grade_score || 'N/A'}</span>
+                                </div>
+                            </div>
+                            <p class="description">${edu.description || 'No description provided'}</p>
+                        </div>
+                    </div>`;
+                    
+                if (index % 2 === 0) {
+                    leftColumn += eduHtml;
+                } else {
+                    rightColumn += eduHtml;
+                }
+            });
+            
+            leftColumn += '</div></div></div>';
+            rightColumn += '</div></div></div>';
+            
+            container.innerHTML = leftColumn + rightColumn;
+        }
+        
+        function renderSkills(skills) {
+            console.log('renderSkills called with:', skills);
+            const container = document.getElementById('skills-content');
+            console.log('Skills container found:', container);
+            
+            if (!skills || skills.length === 0) {
+                if (container) {
+                    container.innerHTML = '<div class="col-12"><p>No skills data available</p></div>';
+                }
+                return;
+            }
+            
+            // Split skills into two columns
+            let leftColumn = '<div class="col-lg-6 col-md-6 col-12"><div class="progress-wrapper"><div class="content"><span class="subtitle">Features</span><h4 class="maintitle">Design Skill</h4>';
+            let rightColumn = '<div class="col-lg-6 col-md-6 col-12 mt_sm--60"><div class="progress-wrapper"><div class="content"><span class="subtitle">Features</span><h4 class="maintitle">Development Skill</h4>';
+            
+            skills.forEach((skill, index) => {
+                // Calculate percentage from rating (assuming rating is out of 10)
+                const ratingValue = typeof skill.rating === 'string' ? parseFloat(skill.rating) : skill.rating;
+                const percentage = Math.min(100, Math.round(ratingValue * 10));
+                
+                const skillHtml = `
+                    <div class="progress-charts">
+                        <h6 class="heading heading-h6">${skill.skill_name || 'N/A'}</h6>
+                        <div class="progress">
+                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".${3 + index}s" role="progressbar" style="width: ${percentage}%" aria-valuenow="${percentage}" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">${percentage}%</span></div>
+                        </div>
+                    </div>`;
+                    
+                if (index % 2 === 0) {
+                    leftColumn += skillHtml;
+                } else {
+                    rightColumn += skillHtml;
+                }
+            });
+            
+            leftColumn += '</div></div></div>';
+            rightColumn += '</div></div></div>';
+            
+            container.innerHTML = leftColumn + rightColumn;
+        }
+        
+        function renderExperience(experiences) {
+            console.log('renderExperience called with:', experiences);
+            const container = document.getElementById('experience-content');
+            console.log('Experience container found:', container);
+            
+            if (!experiences || experiences.length === 0) {
+                if (container) {
+                    container.innerHTML = '<div class="col-12"><p>No experience data available</p></div>';
+                }
+                return;
+            }
+            
+            // Split experience into two columns
+            let leftColumn = '<div class="col-lg-6 col-md-12 col-12"><div class="content"><span class="subtitle">Experience</span><h4 class="maintitle">Work Experience</h4><div class="experience-list">';
+            let rightColumn = '<div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60"><div class="content"><span class="subtitle">Experience</span><h4 class="maintitle">Professional Journey</h4><div class="experience-list">';
+            
+            experiences.forEach((exp, index) => {
+                const expHtml = `
+                    <div class="resume-single-list">
+                        <div class="inner">
+                            <div class="heading">
+                                <div class="title">
+                                    <h4>${exp.job_title || 'N/A'}</h4>
+                                    <span>${exp.company_name || 'N/A'} (${exp.duration || 'N/A'})</span>
+                                </div>
+                                <div class="date-of-time">
+                                    <span>${exp.rating ? parseFloat(exp.rating).toFixed(2) : 'N/A'}/5</span>
+                                </div>
+                            </div>
+                            <p class="description">${exp.description || 'No description provided'}</p>
+                        </div>
+                    </div>`;
+                    
+                if (index % 2 === 0) {
+                    leftColumn += expHtml;
+                } else {
+                    rightColumn += expHtml;
+                }
+            });
+            
+            leftColumn += '</div></div></div>';
+            rightColumn += '</div></div></div>';
+            
+            container.innerHTML = leftColumn + rightColumn;
+        }
+        
+        function renderAchievements(achievements) {
+            console.log('renderAchievements called with:', achievements);
+            const container = document.getElementById('achievements-content');
+            console.log('Achievements container found:', container);
+            
+            if (!achievements || achievements.length === 0) {
+                if (container) {
+                    container.innerHTML = '<div class="col-12"><p>No achievements data available</p></div>';
+                }
+                return;
+            }
+            
+            // Split achievements into two columns
+            let leftColumn = '<div class="col-lg-6 col-md-12 col-12"><div class="content"><span class="subtitle">Achievements</span><h4 class="maintitle">Certifications & Awards</h4><div class="experience-list">';
+            let rightColumn = '<div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60"><div class="content"><span class="subtitle">Achievements</span><h4 class="maintitle">Recognition</h4><div class="experience-list">';
+            
+            achievements.forEach((achievement, index) => {
+                const achievementHtml = `
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="${300 + (index * 200)}" data-aos-once="true" class="resume-single-list">
+                        <div class="inner">
+                            <div class="heading">
+                                <div class="title">
+                                    <h4>${achievement.title || 'N/A'}</h4>
+                                    <span>${achievement.organization || 'N/A'} (${achievement.date_achieved || 'N/A'})</span>
+                                </div>
+                                <div class="date-of-time">
+                                    <span>${achievement.rating_score || 'N/A'}</span>
+                                </div>
+                            </div>
+                            <p class="description">${achievement.description || 'No description provided'}</p>
+                        </div>
+                    </div>`;
+                    
+                if (index % 2 === 0) {
+                    leftColumn += achievementHtml;
+                } else {
+                    rightColumn += achievementHtml;
+                }
+            });
+            
+            leftColumn += '</div></div></div>';
+            rightColumn += '</div></div></div>';
+            
+            container.innerHTML = leftColumn + rightColumn;
+        }
+        
+        // Fetch and render pricing data
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Attempting to fetch pricing data from API');
+            fetch('./AllfrontentApi/fetchPricing.php')
+                .then(response => {
+                    console.log('Pricing response status:', response.status);
+                    console.log('Pricing response ok:', response.ok);
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok: ' + response.status);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Pricing data received:', data);
+                    if(data.success) {
+                        renderPricing(data.pricing_packages);
+                    } else {
+                        console.error('Error loading pricing data:', data.message);
+                        document.getElementById('pricing-content').innerHTML = '<div class="row"><div class="col-12"><p>Error loading pricing data</p></div></div>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Pricing fetch error:', error);
+                    console.log('Setting error message in pricing UI');
+                    document.getElementById('pricing-content').innerHTML = '<div class="row"><div class="col-12"><p>Pricing Error: ' + error.message + '</p></div></div>';
+                });
+        });
+        
+        function renderPricing(packages) {
+            console.log('renderPricing called with:', packages);
+            const tabsContainer = document.getElementById('myTab');
+            const contentContainer = document.getElementById('myTabContent');
+            console.log('Pricing containers found - tabs:', tabsContainer, 'content:', contentContainer);
+            
+            if (!packages || packages.length === 0) {
+                if (contentContainer) {
+                    contentContainer.innerHTML = '<div class="row"><div class="col-12"><p>No pricing packages available</p></div></div>';
+                }
+                return;
+            }
+            
+            // Clear existing content
+            tabsContainer.innerHTML = '';
+            contentContainer.innerHTML = '';
+            
+            // Create tabs and content
+            let tabsHtml = '';
+            let contentHtml = '';
+            
+            packages.forEach((pkg, index) => {
+                // Determine if this is the active tab
+                const isActive = index === 0;
+                
+                // Parse features from the database field
+                const features = pkg.features ? pkg.features.split('\n').map(feat => feat.trim()).filter(feat => feat && feat.startsWith('-')) : [];
+                
+                // Create tab
+                tabsHtml += `
+                    <li class="nav-item ${pkg.is_recommended ? 'recommended' : ''}">
+                        <a class="nav-style ${isActive ? 'active' : ''}" id="${pkg.package_name.toLowerCase().replace(/\s+/g, '-')}-tab" 
+                           data-bs-toggle="tab" href="#${pkg.package_name.toLowerCase().replace(/\s+/g, '-')}" 
+                           role="tab" aria-controls="${pkg.package_name.toLowerCase().replace(/\s+/g, '-')}" 
+                           aria-selected="${isActive ? 'true' : 'false'}">${pkg.title}</a>
+                    </li>`;
+                
+                // Build content in segments to avoid template literal issues
+                let pkgContent = `
+                    <div class="tab-pane fade ${isActive ? 'show active' : ''}" 
+                         id="${pkg.package_name.toLowerCase().replace(/\s+/g, '-')}" 
+                         role="tabpanel" 
+                         aria-labelledby="${pkg.package_name.toLowerCase().replace(/\s+/g, '-')}-tab">
+                        <!-- Pricing Start -->
+                        <div class="rn-pricing">
+                            <div class="pricing-header">
+                                <div class="header-left">
+                                    <h2 class="title">${pkg.title}</h2>
+                                    <span>${pkg.subtitle}</span>
+                                </div>
+                                <div class="header-right">
+                                    <span>${pkg.price}</span>
+                                </div>
+                            </div>
+                            <div class="pricing-body">
+                                <p class="description">
+                                    ${pkg.description}
+                                </p>
+                                <div class="check-wrapper">
+                                    <div class="left-area">`;
+                
+                // Split features between left and right columns
+                const leftFeatures = [];
+                const rightFeatures = [];
+                
+                features.forEach((feature, featureIndex) => {
+                    if (feature.trim() !== '') {
+                        if (featureIndex % 2 === 0) {
+                            leftFeatures.push(feature.trim());
+                        } else {
+                            rightFeatures.push(feature.trim());
+                        }
+                    }
+                });
+                
+                // Add left column features
+                leftFeatures.forEach(feature => {
+                    pkgContent += `
+                                        <div class="check d-flex">
+                                            <i data-feather="check"></i>
+                                            <p>${feature}</p>
+                                        </div>`;
+                });
+                
+                pkgContent += `
+                                    </div>
+                                    <div class="right-area">`;
+                
+                // Add right column features
+                rightFeatures.forEach(feature => {
+                    pkgContent += `
+                                        <div class="check d-flex">
+                                            <i data-feather="check"></i>
+                                            <p>${feature}</p>
+                                        </div>`;
+                });
+                
+                pkgContent += `
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="#" class="rn-btn d-block">
+                                    <span>ORDER NOW</span>
+                                    <i data-feather="arrow-right"></i>
+                                </a>
+                                <div class="time-line">
+                                    <div class="single-cmt d-flex">
+                                        <i data-feather="clock"></i>
+                                        <span>2 Days Delivery</span>
+                                    </div>
+                                    <div class="single-cmt d-flex">
+                                        <i data-feather="activity"></i>
+                                        <span>Unlimited Revission</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End -->
+                    </div>`;
+                
+                contentHtml += pkgContent;
+            });
+            
+            tabsContainer.innerHTML = tabsHtml;
+            contentContainer.innerHTML = contentHtml;
+            
+            // Reinitialize feather icons after content is added
+            if (typeof feather !== 'undefined') {
+                feather.replace();
+            }
+        }
+        
+        // Fetch and render blog data
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Attempting to fetch blog data from API');
+            fetch('./AllfrontentApi/fetchBlog.php')
+                .then(response => {
+                    console.log('Blog response status:', response.status);
+                    console.log('Blog response ok:', response.ok);
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok: ' + response.status);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Blog data received:', data);
+                    if(data.success) {
+                        renderBlogs(data.blogs);
+                    } else {
+                        console.error('Error loading blog data:', data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error('Blog fetch error:', error);
+                    console.log('Setting error message in blog UI');
+                    // You can set an error message in the blog section if needed
+                });
+        });
+        
+        function renderBlogs(blogs) {
+            console.log('renderBlogs called with:', blogs);
+            
+            // Find the blog/news section container
+            const newsContainer = document.querySelector('#blog .row.row--25');
+            
+            if (!blogs || blogs.length === 0) {
+                if (newsContainer) {
+                    newsContainer.innerHTML = '<div class="col-lg-12"><p>No blog posts available</p></div>';
+                }
+                return;
+            }
+            
+            // Clear existing blog items (keep the section title)
+            if (newsContainer) {
+                // Remove existing blog items, keeping only the section title
+                const sectionTitle = document.querySelector('#blog .section-title');
+                newsContainer.innerHTML = '';
+                
+                // Create blog items
+                blogs.forEach((blog, index) => {
+                    const blogHtml = `
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt--30" data-aos="fade-up" data-aos-duration="500" data-aos-delay="${100 + (index * 100)}" data-aos-once="true">
+                            <div class="rn-blog" data-bs-toggle="modal" data-bs-target="#exampleModalCenters" onclick="loadBlogDetails(${blog.id})">
+                                <div class="inner">
+                                    <div class="thumbnail">
+                                        <a href="javascript:void(0)">
+                                            <img src="/personalPortfolio/Admin/${blog.thumbnail || 'static/images/blog/blog-01.jpg'}" alt="Blog Image">
+                                            ${blog.video_url ? '<div class="video-indicator-overlay"><i class="feather-video"></i></div>' : ''}
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="category-info">
+                                            <div class="category-list">
+                                                <a href="javascript:void(0)">${blog.category || 'Uncategorized'}</a>
+                                            </div>
+                                            <div class="meta">
+                                                <span><i class="feather-clock"></i> ${blog.read_time || '2 min read'}</span>
+                                            </div>
+                                        </div>
+                                        <h4 class="title">
+                                            <a href="javascript:void(0)">${blog.title || 'No Title'} 
+                                                <i class="feather-arrow-up-right"></i>
+                                            </a>
+                                        </h4>
+                                        <p class="description">${blog.short_description || (blog.full_description ? (blog.full_description.length > 100 ? blog.full_description.substring(0, 100) + '...' : blog.full_description) : 'No description available')}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>`;
+                    
+                    newsContainer.innerHTML += blogHtml;
+                });
+                
+                // Reinitialize feather icons after content is added
+                if (typeof feather !== 'undefined') {
+                    feather.replace();
+                }
+            }
+        }
+        
+        // Function to load awesome clients dynamically
+        function loadAwesomeClients() {
+            // Load categories first
+            fetch('./AllfrontentApi/AwesomeClientsCategory.php')
+                .then(response => response.json())
+                .then(categoryData => {
+                    if (categoryData.success && categoryData.data) {
+                        const categoryTabs = document.getElementById('v-pills-tab');
+                        const tabContent = document.getElementById('v-pills-tabContent');
+                        
+                        console.log('Category tabs element:', categoryTabs);
+                        console.log('Tab content element:', tabContent);
+                        
+                        // Check if elements exist
+                        if (!categoryTabs || !tabContent) {
+                            console.error('Required DOM elements not found');
+                            return;
+                        }
+                        
+                        // Clear existing content
+                        categoryTabs.innerHTML = '';
+                        tabContent.innerHTML = '';
+                        
+                        // Create tabs and content for each category
+                        categoryData.data.forEach((category, index) => {
+                            // Create tab
+                            const tabLi = document.createElement('li');
+                            tabLi.className = 'nav-item';
+                            
+                            const tabLink = document.createElement('a');
+                            tabLink.className = `nav-link ${index === 0 ? 'active' : ''}`;
+                            tabLink.id = `v-pills-${category.id}-tab`;
+                            tabLink.setAttribute('data-bs-toggle', 'tab');
+                            // Use category ID for tab content identification
+                            tabLink.href = `#v-pills-category-${category.id}`;
+                            tabLink.setAttribute('role', 'tab');
+                            tabLink.setAttribute('aria-selected', index === 0);
+                            tabLink.textContent = category.name;
+                            
+                            tabLi.appendChild(tabLink);
+                            categoryTabs.appendChild(tabLi);
+                            
+                            // Create tab content
+                            const tabPane = document.createElement('div');
+                            tabPane.className = `tab-pane fade ${index === 0 ? 'show active' : ''}`;
+                            tabPane.id = `v-pills-category-${category.id}`;
+                            tabPane.setAttribute('role', 'tabpanel');
+                            tabPane.setAttribute('aria-labelledby', `v-pills-${category.id}-tab`);
+                            
+                            const clientCard = document.createElement('div');
+                            clientCard.className = 'client-card';
+                            clientCard.id = `client-card-${category.id}`;
+                            clientCard.innerHTML = '<div class="loading-clients">Loading clients...</div>';
+                            
+                            tabPane.appendChild(clientCard);
+                            tabContent.appendChild(tabPane);
+                        });
+                        
+                        // Now load clients data
+                        fetch('./AllfrontentApi/AwesomeClient.php')
+                            .then(response => response.json())
+                            .then(clientData => {
+                                console.log('Client data received:', clientData);
+                                if (clientData.success && clientData.data) {
+                                    // Group clients by category
+                                    const clientsByCategory = {};
+                                    clientData.data.forEach(client => {
+                                        if (!clientsByCategory[client.category]) {
+                                            clientsByCategory[client.category] = [];
+                                        }
+                                        clientsByCategory[client.category].push(client);
+                                    });
+                                    
+                                    console.log('Clients grouped by category:', clientsByCategory);
+                                    console.log('Available categories:', categoryData.data);
+                                    
+                                    // Populate each category tab with its clients
+                                    Object.keys(clientsByCategory).forEach(categoryName => {
+                                        console.log('Processing category:', categoryName);
+                                        console.log('Looking for match in:', categoryData.data);
+                                        
+                                        // Find the matching category from our category data
+                                        const matchingCategory = categoryData.data.find(cat => {
+                                            console.log(`Comparing "${cat.name}" with "${categoryName}"`);
+                                            return cat.name.trim() === categoryName.trim();
+                                        });
+                                        
+                                        if (matchingCategory) {
+                                            console.log('Found matching category:', matchingCategory);
+                                            const clientCard = document.getElementById(`client-card-${matchingCategory.id}`);
+                                            console.log('Looking for client card with ID:', `client-card-${matchingCategory.id}`);
+                                            console.log('Client card element found:', clientCard);
+                                            
+                                            if (clientCard) {
+                                                const clients = clientsByCategory[categoryName];
+                                                let clientHTML = '';
+                                                
+                                                clients.forEach(client => {
+                                                    const logoPath = client.logo_path ? `/personalPortfolio/Admin/${client.logo_path}` : '/static/images/client/png/client1.png';
+                                                    clientHTML += `
+                                                        <!-- Start Single Brand  -->
+                                                        <div class="main-content">
+                                                            <div class="inner text-center">
+                                                                <div class="thumbnail">
+                                                                    <a href="#">
+                                                                        <img src="${logoPath}" 
+                                                                             alt="${client.client_name}" 
+                                                                             class="client-logo-full" 
+                                                                             style="width: 100%; height: auto; max-height: 175px; object-fit: contain; padding: 20px;"
+                                                                             onerror="this.src='/static/images/client/png/client1.png'; this.alt='Default Client Logo';">
+                                                                    </a>
+                                                                </div>
+                                                                <div class="seperator"></div>
+                                                                <div class="client-name"><span><a href="#">${client.client_name}</a></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Single Brand  -->
+                                                    `;
+                                                });
+                                                
+                                                clientCard.innerHTML = clientHTML;
+                                                console.log('Updated client card with HTML');
+                                                
+                                                // Reinitialize Bootstrap tabs if available
+                                                if (typeof bootstrap !== 'undefined' && bootstrap.Tab) {
+                                                    console.log('Reinitializing Bootstrap tabs');
+                                                    const triggerTabList = [].slice.call(document.querySelectorAll('#v-pills-tab a[data-bs-toggle="tab"]'));
+                                                    triggerTabList.forEach(function (triggerEl) {
+                                                        new bootstrap.Tab(triggerEl);
+                                                    });
+                                                }
+                                            } else {
+                                                console.log('Client card not found for category ID:', matchingCategory.id);
+                                                // Try to find all client cards to debug
+                                                const allCards = document.querySelectorAll('.client-card');
+                                                console.log('All client cards found:', allCards);
+                                                allCards.forEach((card, index) => {
+                                                    console.log(`Card ${index}:`, card.id, card);
+                                                });
+                                            }
+                                        } else {
+                                            console.log('No matching category found for:', categoryName);
+                                            console.log('Available categories:', categoryData.data.map(c => c.name));
+                                        }
+                                    });
+                                }
+                            })
+                            .catch(error => {
+                                console.error('Error loading clients:', error);
+                                // Show error message in all tabs
+                                document.querySelectorAll('.client-card').forEach(card => {
+                                    card.innerHTML = '<div class="error-message">Failed to load clients</div>';
+                                });
+                            })
+                            .finally(() => {
+                                // Try to activate the first tab manually if needed
+                                setTimeout(() => {
+                                    const firstTab = document.querySelector('#v-pills-tab .nav-link.active');
+                                    if (firstTab) {
+                                        firstTab.click();
+                                        console.log('Activated first tab');
+                                    }
+                                }, 100);
+                            });
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading categories:', error);
+                    const categoryTabs = document.getElementById('v-pills-tab');
+                    if (categoryTabs) {
+                        categoryTabs.innerHTML = '<li class="nav-item"><div class="error-message">Failed to load categories</div></li>';
+                    }
+                });
+        }
+        
+        // Load awesome clients when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadAwesomeClients();
+        });
+        
+        // Function to load blog details in the modal
+        function loadBlogDetails(blogId) {
+            console.log('Loading blog details for ID:', blogId);
+            
+            // Fetch the specific blog post
+            fetch('./AllfrontentApi/fetchBlog.php')
+                .then(response => response.json())
+                .then(data => {
+                    if(data.success) {
+                        const blog = data.blogs.find(b => b.id == blogId);
+                        if(blog) {
+                            // Update modal content with blog details
+                            const modalBody = document.querySelector('#exampleModalCenters .modal-body');
+                            if(modalBody) {
+                                // Create video element if video_url exists
+                                let videoHtml = '';
+                                if(blog.video_url) {
+                                    const videoSrc = `/personalPortfolio/Admin/${blog.video_url}`;
+                                    videoHtml = `
+                                    <div class="video-container mb-4">
+                                        <video controls width="100%" height="auto" controlsList="nodownload">
+                                            <source src="${videoSrc}" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>`;
+                                }
+                                
+                                modalBody.innerHTML = `
+                                    ${blog.video_url ? videoHtml : `<img src="/personalPortfolio/Admin/${blog.thumbnail || 'static/images/blog/blog-big-01.jpg'}" alt="${blog.title}" class="img-fluid modal-feat-img">`}
+                                    <div class="news-details">
+                                        <span class="date">${new Date(blog.created_at).toLocaleDateString() || 'Date not available'}</span>
+                                        <h2 class="title">${blog.title || 'No Title'}</h2>
+                                        <p>${blog.full_description || 'No description available'}</p>
+                                    </div>
+                                    
+                                    <!-- Comment Section Area Start -->
+                                    <div class="comment-inner">
+                                        <h3 class="title mb--40 mt--50">Leave a Reply</h3>
+                                        <form action="#">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-12 col-12">
+                                                    <div class="rnform-group"><input type="text" placeholder="Name">
+                                                    </div>
+                                                    <div class="rnform-group"><input type="email" placeholder="Email">
+                                                    </div>
+                                                    <div class="rnform-group"><input type="text" placeholder="Website">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-12 col-12">
+                                                    <div class="rnform-group">
+                                                        <textarea placeholder="Comment"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <a class="rn-btn" href="#"><span>SUBMIT NOW</span></a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- Comment Section End -->`;
+                                
+                                // If there's a video and no thumbnail, we might want to ensure proper layout
+                                if(blog.video_url && !blog.thumbnail) {
+                                    // Video takes precedence over image
+                                }
+                                
+                                // Reinitialize feather icons after content is added
+                                if (typeof feather !== 'undefined') {
+                                    feather.replace();
+                                }
+                            }
+                        }
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading blog details:', error);
+                });
+        }
+    </script>
+
+    <style>
+        .loading-clients, .error-message {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .error-message {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        
+        /* Full-size client logo styling */
+        .client-logo-full {
+            width: 100% !important;
+            height: auto !important;
+            max-height: 175px !important;
+            object-fit: contain !important;
+            padding: 20px !important;
+            display: block !important;
+            margin: 0 auto !important;
+        }
+        
+        /* Ensure thumbnail container accommodates full-size images */
+        .thumbnail {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            height: auto !important;
+            min-height: 175px !important;
+        }
+        
+        /* Responsive adjustments for client logos */
+        @media (max-width: 768px) {
+            .client-logo-full {
+                max-height: 150px !important;
+                padding: 15px !important;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .client-logo-full {
+                max-height: 120px !important;
+                padding: 10px !important;
+            }
+        }
+        
+        /* Hover effects for client logos */
+        .client-logo-full:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .thumbnail:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        
+        /* Ensure proper spacing and alignment */
+        .main-content {
+            margin-bottom: 20px;
+        }
+        
+        .inner {
+            padding: 10px;
+        }
+        
+        .video-indicator-overlay {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            border-radius: 50%;
+            padding: 5px 8px;
+            font-size: 12px;
+        }
+        
+        .video-container {
+            margin-bottom: 20px;
+            max-height: 400px;
+            overflow: hidden;
+        }
+            
+        .video-container video {
+            max-height: 400px;
+            width: 100%;
+            object-fit: contain;
+        }
+        
+        .rn-blog .thumbnail {
+            position: relative;
+            overflow: hidden;
+        }
+    </style>
+    <!-- script end -->
+
+</body>
+
+</html>
